@@ -53,10 +53,10 @@ int main(int argc, char *argv[]) {
         // creating a socket
         sockfd = socket(rp->ai_family, rp->ai_socktype, rp->ai_protocol);
         if (sockfd == -1) {
-            continue; // Error, try the next address
+            continue; // Error, try the next address!
         }
 
-        break; // Success, we have a socket
+        break; // Success, we have a socket!
     }
 
 
